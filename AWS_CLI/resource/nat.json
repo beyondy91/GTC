@@ -1,0 +1,1 @@
+{"NatGatewayAddresses": [{"PublicIp": "54.238.211.71", "NetworkInterfaceId": "eni-0515fa7e5c01b3bc6", "AllocationId": "eipalloc-0f1ec1f07b18002d7", "PrivateIp": "172.32.1.254"}], "VpcId": "vpc-05e90a7ef710bb823", "Tags": [], "State": "available", "NatGatewayId": "nat-077cee555d75827e8", "SubnetId": "subnet-038e781886c663190", "CreateTime": "2019-05-20T07:32:32+00:00"}

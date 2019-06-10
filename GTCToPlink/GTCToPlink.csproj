@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GTC\GTC.csproj" />
+    <ProjectReference Include="..\Plink\Plink.csproj" />
+    <ProjectReference Include="..\BPMUtils\BPMUtils.csproj" />
+    <ProjectReference Include="..\GTCUtils\GTCUtils.csproj" />
+    <ProjectReference Include="..\LDUtils\LDUtils.csproj" />
+  </ItemGroup>
+</Project>

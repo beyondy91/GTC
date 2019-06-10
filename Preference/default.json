@@ -1,0 +1,22 @@
+﻿{
+  "bucketRegionGTC": "ap-northeast-1",
+  "bucketNameGTC": "s3gtc",
+  "bucketRegionBPM": "ap-northeast-1",
+  "bucketNameBPM": "s3bpm",
+  "bucketRegionPlink": "ap-northeast-1",
+  "bucketNamePlink": "s3plink",
+  "dynamoProgressTable": "g1progress",
+  "dynamoProgressRegion": "ap-northeast-1",
+  "dynamoRemoveTable": "g1remove",
+  "dynamoRemoveRegion": "ap-northeast-1",
+  "dynamoRepeatFillTable": "g1repeatfill",
+  "dynamoRepeatFillRegion": "ap-northeast-1",
+  "dynamoLDFillTable": "g1ldfill",
+  "dynamoLDFillRegion": "ap-northeast-1",
+  "dynamoPCRTable": "g1pcr",
+  "dynamoPCRRegion": "ap-northeast-1",
+  "dynamoImputationTable": "g1imputation",
+  "dynamoImputationRegion": "ap-northeast-1",
+  "BPMKey": "Genoplan_beta_20190228.bpm",
+  "plinkBase": ""
+}

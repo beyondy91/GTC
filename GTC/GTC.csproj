@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BeadPoolManifest\LocusEntry\" />
+    <Folder Include="BeadPoolManifest\RefStrand\" />
+    <Folder Include="BeadPoolManifest\SourceStrand\" />
+    <Folder Include="BeadPoolManifest\BeadPoolManifestWriter\" />
+    <Folder Include="BeadPoolManifest\LocusEntryWriter\" />
+    <Folder Include="ClusterRecord\" />
+    <Folder Include="ClusterScore\" />
+    <Folder Include="ClusterStats\" />
+    <Folder Include="GenotypeCalls\NormalizationTransform\" />
+    <Folder Include="GenotypeCalls\ScannerData\" />
+  </ItemGroup>
+</Project>

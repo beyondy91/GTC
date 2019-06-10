@@ -1,0 +1,12 @@
+name: API_Description
+title: API_Description
+username:
+account: ted-gpkor
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 956671
+bundleId: 2117661
+url: https://ted-gpkor.shinyapps.io/API_Description/
+when: 1559203147.57767
+asMultiple: FALSE
+asStatic: FALSE

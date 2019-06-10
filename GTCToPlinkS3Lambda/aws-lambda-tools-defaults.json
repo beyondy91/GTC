@@ -1,0 +1,23 @@
+﻿{
+  "profile": "lambdaS3GTCToPlink", 
+  "Information": [
+    "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.", 
+    "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.", 
+    "dotnet lambda help", 
+    "All the command line options for the Lambda command can be specified in this file."
+  ], 
+  "function-runtime": "dotnetcore2.1", 
+  "function-subnets": "subnet-0276150fa2016000c", 
+  "function-timeout": 900, 
+  "region": "ap-northeast-1", 
+  "function-security-groups": "sg-05d4d83128ac3840a", 
+  "framework": "netcoreapp2.1", 
+  "function-handler": "GTCToPlinkS3Lambda::GTCToPlinkS3Lambda.GTCToPlinkS3LambdaFunction::GTCToPlinkS3LambdaFunctionHandler", 
+  "function-role": "arn:aws:iam::996526550038:role/pipeline/LambdaS3GTCToPlink", 
+  "function-description": "Lambda function to parse GTC file to create Plink", 
+  "function-memory-size": 2048, 
+  "function-vpcs": "vpc-05e90a7ef710bb823", 
+  "function-name": "GTCToPlinkFunction", 
+  "environment-variables": "tableRegionPreference=\"ap-northeast-1\";tableNamePreference=\"g1preference\";tableRegionManifest=\"ap-northeast-1\";tableNameManifest=\"g1manifest\"", 
+  "configuration": "Release"
+}

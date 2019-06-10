@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Preference\Preference.csproj" />
+    <ProjectReference Include="..\Dynamo\Dynamo.csproj" />
+    <ProjectReference Include="..\Plink\Plink.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.APIGatewayEvents" Version="1.2.0" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.3.101.18" />
+    <PackageReference Include="AWSSDK.Lambda" Version="3.3.102.10" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="1.5.0" />
+  </ItemGroup>
+</Project>

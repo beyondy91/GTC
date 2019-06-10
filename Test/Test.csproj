@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GTC\GTC.csproj" />
+    <ProjectReference Include="..\SimulationResult\SimulationResult.csproj" />
+    <ProjectReference Include="..\PlinkS3\PlinkS3.csproj" />
+    <ProjectReference Include="..\Plink\Plink.csproj" />
+    <ProjectReference Include="..\S3\S3.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="GTC.Tests\FunctionTest.cs" />
+  </ItemGroup>
+</Project>

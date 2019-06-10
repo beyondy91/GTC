@@ -1,0 +1,16 @@
+cd Migration
+python vpc.py
+python modifyVPC.py
+python privateSubnet.py
+python publicSubnet.py
+python nat.py
+python igw.py
+python securityGroup.py
+python endpoint.py
+python s3.py
+python dynamodb.py
+python arnPolicy.py
+python arnRole.py
+python attachPolicy.py
+python lambdaEvent.py
+python lambdaAPI.py

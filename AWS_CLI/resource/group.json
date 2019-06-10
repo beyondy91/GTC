@@ -1,0 +1,1 @@
+{"IpPermissionsEgress": [{"IpProtocol": "-1", "PrefixListIds": [], "IpRanges": [{"CidrIp": "0.0.0.0/0"}], "UserIdGroupPairs": [], "Ipv6Ranges": [{"CidrIpv6": "::/0"}]}], "Description": "Security group for DS pipeline", "IpPermissions": [], "GroupName": "ds-pipeline-group", "VpcId": "vpc-05e90a7ef710bb823", "OwnerId": "996526550038", "GroupId": "sg-05d4d83128ac3840a"}
